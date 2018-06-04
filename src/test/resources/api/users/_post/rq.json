@@ -1,0 +1,10 @@
+[
+  {
+    <#if firstName??>"First Name": "${firstName}",</#if>
+    <#if lastName??>"Last Name": "${lastName}",</#if>
+    <#if email??>"Email": "${email}",</#if>
+    <#if password??>"Password": "${password}",</#if>
+    <#if confirmPassword??>"Confirm password": "${confirmPassword}",</#if>
+    <#if username??>"Username": "${username}",</#if>
+  }
+]

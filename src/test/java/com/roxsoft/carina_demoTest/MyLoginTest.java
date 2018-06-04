@@ -18,7 +18,7 @@ public class MyLoginTest extends AbstractTest
 	@Test 
 	public void loginTest() {
 		LoginService logservice = new LoginService();
-		logservice.login("sotis.t@mail.ru", "Sirius");
+		logservice.login("sotis.t@mail.ru", "Password");
 		
 	}
 	
